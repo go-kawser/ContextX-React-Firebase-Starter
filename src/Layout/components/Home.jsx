@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
-import { authContext } from '../../providers/AuthProvider';
+import { AuthContext } from '../../providers/AuthProvider';
+
 
 const Home = () => {
-    const user = useContext(authContext);
+    const { user } = useContext(AuthContext);
+    console.log(user)
 
     return (
         <div>
-            <h2>this is Home {user && <span>{user.displayName}</span>} </h2>
+            <h2>This is Home {user && <span>{user.displayName}</span>}</h2>
         </div>
     );
 };
