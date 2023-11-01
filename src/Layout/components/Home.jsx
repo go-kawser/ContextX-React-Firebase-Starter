@@ -3,7 +3,7 @@ import { AuthContext } from '../../providers/AuthProvider';
 
 
 const Home = () => {
-    const { user } = useContext(AuthContext);
+    const user = useContext(AuthContext);
     console.log(user)
 
     return (

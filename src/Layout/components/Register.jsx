@@ -1,15 +1,11 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { getAuth } from "firebase/auth";
-import app from '../../firebase/firebase.config';
 import { AuthContext } from '../../providers/AuthProvider';
-
-const auth = getAuth(app)
 
 
 const Register = () => {
-    const user = useContext(AuthContext);
-    console.log(user);
+    const { user, createUser } = useContext(AuthContext);
+    console.log(createUser);
 
     const handleRegister = (event) => {
         event.preventDefault();
@@ -19,6 +15,16 @@ const Register = () => {
         const email = form.email.value;
         const password = form.password.value;
         console.log(name, email, password);
+
+        createUser(email, password)
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser);
+            form.reset();
+        })
+        .catch(error =>{
+            console.log(error.message)
+        })
     }
     return (
         <div className="hero min-h-screen bg-base-200">
