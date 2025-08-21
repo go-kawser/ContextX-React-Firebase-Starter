@@ -1,13 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Auth Firebase App</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="root">
+      <div class="loading-screen">
+        <div class="loading-content">
+          <div class="loading-spinner"></div>
+          <h2 class="loading-title">Loading Auth App...</h2>
+          <p class="loading-subtitle">
+            Firebase Authentication with React & Tailwind
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
