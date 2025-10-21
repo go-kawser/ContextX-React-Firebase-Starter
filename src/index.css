@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom base styles */
+/* Custom Base Styles */
 @layer base {
   * {
     box-sizing: border-box;
@@ -26,7 +26,7 @@
   }
 }
 
-/* Loading screen styles */
+/* Loading Screen Styles */
 .loading-screen {
   display: flex;
   justify-content: center;
@@ -75,7 +75,7 @@
   }
 }
 
-/* Custom components */
+/* Custom Components */
 @layer components {
   .btn {
     @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 ease-in-out;
@@ -106,7 +106,7 @@
   }
 }
 
-/* Custom utilities */
+/* Custom Utilities */
 @layer utilities {
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -121,7 +121,7 @@
   }
 }
 
-/* Form styles */
+/* Form Styles */
 .form-group {
   @apply mb-5;
 }
@@ -130,7 +130,7 @@
   @apply text-red-600 text-sm mt-1;
 }
 
-/* Navigation styles */
+/* Navigation Styles */
 .navbar {
   @apply bg-white shadow-lg px-6 py-4 flex items-center gap-4;
 }
@@ -143,7 +143,7 @@
   @apply bg-blue-100 text-blue-700;
 }
 
-/* Alert styles */
+/* Alert Styles */
 .alert {
   @apply p-4 rounded-lg mb-4;
 }
@@ -160,7 +160,7 @@
   @apply bg-blue-100 border border-blue-400 text-blue-700;
 }
 
-/* Container utilities */
+/* Container Utilities */
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
@@ -169,7 +169,7 @@
   @apply max-w-3xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
   .navbar {
     @apply px-4 py-3 flex-wrap;
@@ -188,7 +188,7 @@
   }
 }
 
-/* Scrollbar styling */
+/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -207,13 +207,13 @@
   background: #a8a8a8;
 }
 
-/* Focus styles for accessibility */
+/* Focus Styles Ror Accessibility */
 .focus\:ring-primary:focus {
   --tw-ring-color: rgb(59 130 246 / 0.5);
   box-shadow: 0 0 0 3px var(--tw-ring-color);
 }
 
-/* Animation utilities */
+/* Animation Utilities */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -229,7 +229,7 @@
   animation: fadeIn 0.3s ease-out;
 }
 
-/* Avatar styles */
+/* Avatar Styles */
 .avatar {
   @apply rounded-full flex items-center justify-center;
 }

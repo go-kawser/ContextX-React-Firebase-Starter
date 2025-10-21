@@ -19,10 +19,8 @@ const Profile: React.FC = () => {
   };
 
   const handleSave = () => {
-    // Here you would typically update the user profile
     console.log("Saving profile:", formData);
     setIsEditing(false);
-    // Add your update logic here
   };
 
   return (
@@ -100,7 +98,7 @@ const Profile: React.FC = () => {
                 />
               </div>
 
-              {/* Action Buttons */}
+              {/* Buttons */}
               <div className="flex gap-2 mt-6">
                 {isEditing ? (
                   <>
@@ -128,7 +126,7 @@ const Profile: React.FC = () => {
               </div>
             </div>
 
-            {/* Account Info Section */}
+            {/* Information Section */}
             <div className="divider"></div>
 
             <div className="space-y-2">
@@ -161,13 +159,13 @@ const Profile: React.FC = () => {
             <h3 className="card-title">Security</h3>
             <div className="space-y-3">
               <button className="btn btn-outline w-full justify-start">
-                🔒 Change Password
+                Change Password
               </button>
               <button className="btn btn-outline w-full justify-start">
-                📧 Verify Email
+                Verify Email
               </button>
               <button className="btn btn-outline w-full justify-start text-error">
-                🚫 Delete Account
+                Delete Account
               </button>
             </div>
           </div>
