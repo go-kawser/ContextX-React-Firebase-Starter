@@ -1,8 +1,7 @@
 # Context-X: Advanced React + Firebase Auth + Tailwind + DaisyUI
 
-"A modern, production-ready authentication starter built with **React**, **Vite**, **Firebase Authentication**, **Tailwind CSS**, and **DaisyUI**.  
+A modern, production-ready authentication starter built with **React**, **Vite**, **Firebase Authentication**, **Tailwind CSS**, and **DaisyUI**.  
 Seamlessly manage user authentication, protected routes, and beautiful UI — all with best practices and extensibility in mind.
-"
 
 ## Features
 
@@ -25,7 +24,7 @@ src/App.tsx main.tsx index.css firebase/firebase.config.ts Layout/Main.tsx compo
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Kawser420/auth-firebase-context-tailwind.git
+git clone https://github.com/Kawser420/ContextX-React-Firebase-Starter.git
 
 ## Authentication Flow
 
@@ -52,19 +51,14 @@ git clone https://github.com/Kawser420/auth-firebase-context-tailwind.git
 - npm run format
 - npm run type-check
 
-## Extending Functionality
+### Extending Functionality
 
 Add Firestore: Connect orders or user data to Firestore.
 Profile Editing: Implement profile update logic in Profile.tsx.
 Password Reset: Add a password reset flow.
 Role-based Access: Extend AuthProvider for admin/user roles.
 
-## License
-
-MIT License.
-Feel free to use, modify, and share!
-
-## Acknowledgements
+#### Acknowledgements
 
 1. React
 2. Vite
