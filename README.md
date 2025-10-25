@@ -1,19 +1,19 @@
 # Context-X: Advanced React + Firebase Auth + Tailwind + DaisyUI
 
 A modern, production-ready authentication starter built with **React**, **Vite**, **Firebase Authentication**, **Tailwind CSS**, and **DaisyUI**.  
-Seamlessly manage user authentication, protected routes, and beautiful UI — all with best practices and extensibility in mind.
+Seamlessly manage user authentication, protected routes, and beautiful UI - all with best practices and extensibility in mind.
 
 ## Features
 
 - **React 18** with [Vite](https://vitejs.dev/) for instant HMR and lightning-fast builds
-- **Firebase Authentication** (Email/Password & Google OAuth)
+- **Firebase Authentication** (Email/Password and Google OAuth)
 - **Context API** for global auth state management
 - **Protected Routes** with React Router v6
-- **Tailwind CSS** & **DaisyUI** for rapid, responsive, and accessible UI development
+- **Tailwind CSS** and **DaisyUI** for rapid, responsive, and accessible UI development
 - **TypeScript** for type safety and scalability
 - **Reusable Components**: Header, Profile, Orders, Auth Forms
 - **Customizable Themes** (light, dark, cupcake)
-- **ESLint** & **Prettier** for code quality
+- **ESLint** and **Prettier** for code quality
 - **Production-ready** structure and best practices
 
 ## Project Structure
@@ -24,17 +24,17 @@ src/App.tsx main.tsx index.css firebase/firebase.config.ts Layout/Main.tsx compo
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Kawser420/ContextX-React-Firebase-Starter.git
+git clone https://github.com/go-kawser/ContextX-React-Firebase-Starter.git
 
 ## Authentication Flow
 
-- Register: Create a new account with email & password.
-- Login: Sign in with email/password or Google.
-- Protected Routes: /profile and /orders are accessible only to authenticated users.
-- Profile Management: View and (extend to) edit user profile.
-- Logout: Securely sign out from any page.
+- **Register:** Create a new account with email and password.
+- **Login:** Sign in with email/password or Google.
+- **Protected Routes:** /profile and /orders are accessible only to authenticated users.
+- **Profile Management:** View and (extend to) edit user profile.
+- **Logout:** Securely sign out from any page.
 
-## Theming & Styling
+## Theming and Styling
 
 - Built with Tailwind CSS and DaisyUI for rapid, customizable UI.
 - Switch between light, dark, and cupcake themes.
