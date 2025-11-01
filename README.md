@@ -65,3 +65,7 @@ Role-based Access: Extend AuthProvider for admin/user roles.
 3. Firebase
 4. Tailwind CSS
 5. DaisyUI
+
+##### Contact
+
+**Email:** abu.kayser.official@gmail.com
