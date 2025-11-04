@@ -1,4 +1,4 @@
-# Context-X: Advanced React + Firebase Auth + Tailwind + DaisyUI
+# Context-X - Advanced React + Firebase Auth Starter with Tailwind and DaisyUI
 
 A modern, production-ready authentication starter built with **React**, **Vite**, **Firebase Authentication**, **Tailwind CSS**, and **DaisyUI**.  
 Seamlessly manage user authentication, protected routes, and beautiful UI - all with best practices and extensibility in mind.
@@ -24,7 +24,7 @@ src/App.tsx main.tsx index.css firebase/firebase.config.ts Layout/Main.tsx compo
 
 ### 1. Clone the Repository
 
-git clone https://github.com/go-kawser/ContextX-React-Firebase-Starter.git
+git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
 
 ## Authentication Flow
 
@@ -40,32 +40,53 @@ git clone https://github.com/go-kawser/ContextX-React-Firebase-Starter.git
 - Switch between light, dark, and cupcake themes.
 - Responsive and accessible by default.
 
-## Scripts
+## Scripts formatting
 
-### Command
-
-- npm run dev
-- npm run build
-- npm run preview
-- npm run lint
-- npm run format
-- npm run type-check
+- npm run dev # Start development server
+- npm run build # Build for production
+- npm run preview # Preview production build
+- npm run lint # Run ESLint
+- npm run format # Run Prettier
+- npm run type-check # Run TypeScript type checks
 
 ### Extending Functionality
 
-Add Firestore: Connect orders or user data to Firestore.
-Profile Editing: Implement profile update logic in Profile.tsx.
-Password Reset: Add a password reset flow.
-Role-based Access: Extend AuthProvider for admin/user roles.
+- **Add Firestore:** Connect orders or user data to Firestore.
+- **Profile Editing:** Implement profile update logic in Profile.tsx.
+- **Password Reset:** Add a password reset flow.
+- **Role-based Access:** Extend AuthProvider for admin/user roles.
 
-#### Acknowledgements
+### Technologies Used
 
-1. React
-2. Vite
-3. Firebase
-4. Tailwind CSS
-5. DaisyUI
+- React 18
+- Vite
+- Firebase Authentication
+- Tailwind CSS
+- DaisyUI
+- TypeScript
+- ESLint + Prettier
 
-##### Contact
+### License
 
-**Email:** abu.kayser.official@gmail.com
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _ContextX-React-Firebase-Starter_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**  
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect portfolio showcases, or professional demos.
+
+---
