@@ -80,7 +80,7 @@ git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
 
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _ContextX-React-Firebase-Starter_
+- **Project:** _context-x-auth-starter_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
