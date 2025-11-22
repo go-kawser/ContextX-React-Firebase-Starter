@@ -16,10 +16,6 @@ Seamlessly manage user authentication, protected routes, and beautiful UI - all 
 - **ESLint** and **Prettier** for code quality
 - **Production-ready** structure and best practices
 
-## Project Structure
-
-src/App.tsx main.tsx index.css firebase/firebase.config.ts Layout/Main.tsx components/Header.tsx Home.tsx Login.tsx Register.tsx Profile.tsx Orders.tsx providers/AuthProvider.tsx routes/PrivateRoutes.tsx public/vite.svg
-
 ## Getting Started
 
 1. Clone the Repository
@@ -47,12 +43,12 @@ git clone https://github.com/md-abu-kayser/context-x-auth-starter.git
 
 ---
 
-npm run dev # Start development server
-npm run build # Build for production
-npm run preview # Preview production build
-npm run lint # Run ESLint
-npm run format # Run Prettier
-npm run type-check # Run TypeScript type checks
+- npm run dev # Start development server
+- npm run build # Build for production
+- npm run preview # Preview production build
+- npm run lint # Run ESLint
+- npm run format # Run Prettier
+- npm run type-check # Run TypeScript type checks
 
 ---
 
