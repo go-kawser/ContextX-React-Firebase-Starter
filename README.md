@@ -89,6 +89,7 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 ---
 
 It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect portfolio showcases, or professional demos.
-**Thank you for reviewing this project!**
+
+- **Thank you for reviewing this project!**
 
 ---
