@@ -1,4 +1,4 @@
-# Context-X - Advanced React + Firebase Auth Starter with Tailwind and DaisyUI
+# Context-X - Advanced React and Firebase Auth Starter
 
 A modern, production-ready authentication starter built with **React**, **Vite**, **Firebase Authentication**, **Tailwind CSS**, and **DaisyUI**.  
 Seamlessly manage user authentication, protected routes, and beautiful UI - all with best practices and extensibility in mind.
@@ -22,9 +22,12 @@ src/App.tsx main.tsx index.css firebase/firebase.config.ts Layout/Main.tsx compo
 
 ## Getting Started
 
-### 1. Clone the Repository
+1. Clone the Repository
 
-git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
+```bash
+git clone https://github.com/md-abu-kayser/context-x-auth-starter.git
+
+```
 
 ## Authentication Flow
 
@@ -42,16 +45,20 @@ git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
 
 ## Scripts formatting
 
-- npm run dev # Start development server
-- npm run build # Build for production
-- npm run preview # Preview production build
-- npm run lint # Run ESLint
-- npm run format # Run Prettier
-- npm run type-check # Run TypeScript type checks
+---
+
+npm run dev # Start development server
+npm run build # Build for production
+npm run preview # Preview production build
+npm run lint # Run ESLint
+npm run format # Run Prettier
+npm run type-check # Run TypeScript type checks
+
+---
 
 ### Extending Functionality
 
-- **Add Firestore:** Connect orders or user data to Firestore.
+- **Add Fire Store:** Connect orders or user data to Fire store.
 - **Profile Editing:** Implement profile update logic in Profile.tsx.
 - **Password Reset:** Add a password reset flow.
 - **Role-based Access:** Extend AuthProvider for admin/user roles.
@@ -64,7 +71,7 @@ git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
 - Tailwind CSS
 - DaisyUI
 - TypeScript
-- ESLint + Prettier
+- ESLint and Prettier
 
 ### License
 
@@ -75,18 +82,17 @@ git clone https://github.com/md-abu-kayser/ContextX-React-Firebase-Starter.git
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
-- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _context-x-auth-starter_
+- **_Name:_** Md Abu Kayser - Full-Stack Engineer
+- **_Project:_** _context-x-auth-starter_
+- **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
 ---
 
-**Thank you for reviewing this project!**  
 It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect portfolio showcases, or professional demos.
+**Thank you for reviewing this project!**
 
 ---
